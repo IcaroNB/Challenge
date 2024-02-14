@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Unica+One&display=swap" rel="stylesheet">  
+  <link rel="shortcut icon" href="./assets/img/Lock -3.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Encriptador 3000</title>
+</head>
+<body>
+  <header class="headerDisplay">
+    <img src="./assets/img/Lock -3.jpg" class="imgLogo" alt="Logo do Encriptador 3000">
+    <div class="headerTexts">
+      <h1>Encriptador 3000</h1>
+      <p>Guardando seus segredos até de você mesmo.</p>
+    </div>
+  </header>
+  <main class="main">
+    <section class="entrada" id="entrada">
+    <div class="entradaTxt" id="entrada-div">
+      <textarea name="entradaTxt" class="entradaTxtArea" id="entradaTxt" cols="30" rows="10" placeholder="Digite seu texto aqui..." ></textarea>
+      <p>Apenas letras maiúsculas e sem acentuação</p>
+    </div>
+    <div class="actionBtn" id="actionBtn">
+      <button class="buttonsActions" id="encriptar">Criptografar</button>
+      <button class="buttonsActions" id="desencriptar">Descriptografar</button>
+    </div>
+    </section>
+    <section class="saida" id="saida">
+      <div class="saidaTxt" id="saidaDiv">
+        <p id="saidaTxt"></p>
+        <button class="buttonCopy" id="copiar">Copiar</button>
+      </div>
+      <div class="imgSaida" id="imgSaida">
+        <img src="./assets/img/resultSpace.png" alt="imagem de aguardo da operação" class="imgEspera">
+        <h3>Nenhuma mensagem encontrada</h3>
+        <p>Digite um texto que você deseha criptografar ou descriptografar.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footerContainer">
+    <p class="footerText">Desenvolvido por Ícaro Bezerra</p>
+    <div class="links">
+      <a class="footerLinks" href="https://www.instagram.com/icaronb14/" target="_blank">Instagram</a>
+      <a class="footerLinks" href="https://www.linkedin.com/in/%C3%ADcaro-bezerra-44a031215/" target="_blank">LinkedIN</a>
+      <a class="footerLinks" href="https://github.com/IcaroNB" target="_blank">Github</a>
+    </div>
+  </footer>
+</body>
+<script src="./index.js"></script>
+</html>
